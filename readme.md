@@ -35,7 +35,7 @@ Chaque apprenant crée un dossier dans `page/` portant le nom de son animal, con
 ### 1. Récupérer le projet (une seule fois)
 
 ```bash
-git clone <url-du-repo>
+git clone https://github.com/mickael-dvlp/Projet-Rocket.git
 ```
 
 ### 2. Avant chaque session de travail
@@ -52,12 +52,16 @@ Une fois ton travail terminé :
 
 ```bash
 git add .
-git commit -m "feat: ajout page <nom-de-ton-animal>"
+git commit -m "ajout page <nom-de-ton-animal>"
 git push
 ```
 
 ## Règles
 
 - Ne pas modifier `index.html`, `style.css` ou `script.js` sans en parler au chef de projet. Petit message dans le discord pour prévenir.
+
 - Travailler uniquement dans son dossier `page/<ton-animal>/`
+
 - Toujours faire un `git pull` avant de commencer à coder pour récupérer les maj des autres developpeurs !
+
+-
